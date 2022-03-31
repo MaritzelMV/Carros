@@ -37,25 +37,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-lg-3">
-                    <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                    <div class="logo"><a href="index.html"><img src="images/logo1.jpg"></a></div>
                 </div>
                 <div class="col-sm-6 col-lg-9">
                     <div class="menu_text">
-                        <ul>
-                            <li><a href="index.html">Inicio</a></li>                                                    
-                            <li><a href="#about">Acerca</a></li>
+                        <ul>                                                    
+                            <li><a href="#booking">Acerca</a></li>
                             <li><a href="#taxis">Taxi</a></li>
-                            <li><a href="#booking">Booking</a></li>
                             <li><a href="#contact">Contacto</a></li>
                             <li><a href="#"><img src="images/search-icon.png"></a></li>
                             <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                  <a href="index.html">Home</a>
-                  <a href="#about">About</a>
+                  <a href="#booking">Acerca</a>
                   <a href="#taxis">Taxi</a>
-                  <a href="#booking">Booking</a>
-                  <a href="#contact">Contact Us</a>
+                  <a href="#contact">Contacto</a>
                 </div>
                 </div>
                 <span  style="font-size:33px;cursor:pointer; color: #ffffff;" onclick="openNav()"><img src="images/toggle-menu.png" class="toggle_menu"></span>
@@ -76,31 +72,31 @@
       <div class="row">
           <div class="col-md-6">
             <div class="book_now">
-              <h1 class="book_text">BOOK NOW</h1>
-              <h1 class="call_text">(+71) 1234567890</h1>
+              <h1 class="book_text">¡RESERVA YA!</h1>
+              <h1 class="call_text">5584741659</h1>
             </div>
             <div class="image_1"><img src="images/img-1.png"></div>
           </div>
           <div class="col-md-6">
-            <h1 class="booking_text">Book a City Taxi to your destination in town</h1>
+            <h1 class="booking_text">RUTA 1</h1>
             <div class="contact_bg">
             <div class="input_main">
               <div class="container">
-                <h2 class="request_text">Your everyday travel partner</h2>
+                <h2 class="request_text">Lo mas confiable en viajes</h2>
                 <form action="/action_page.php">
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="PICKUP" name="Name">
+                  <input type="text" class="email-bt" placeholder="Lugar a recoger" name="Name">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="DROP" name="Email">
+                  <input type="text" class="email-bt" placeholder="Lugar de destino" name="Email">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="WHEN" name="Email">
+                  <input type="text" class="email-bt" placeholder="Cuando" name="Email">
                 </div>
                   </form>
                   </div> 
                   </div>
-                <div class="send_bt"><a href="#">SEARCH</a></div>
+                <div class="send_bt"><a href="#">RESERVAR</a></div>
           </div>
           </div>
         </div>
@@ -109,31 +105,31 @@
       <div class="row">
           <div class="col-md-6">
             <div class="book_now">
-              <h1 class="book_text">BOOK NOW</h1>
-              <h1 class="call_text">(+71) 1234567890</h1>
+              <h1 class="book_text">¡RESERVA YA!</h1>
+              <h1 class="call_text">5623598412</h1>
             </div>
             <div class="image_1"><img src="images/img-1.png"></div>
           </div>
           <div class="col-md-6">
-            <h1 class="booking_text">Book a City Taxi to your destination in town</h1>
+            <h1 class="booking_text">RUTA 2</h1>
             <div class="contact_bg">
             <div class="input_main">
               <div class="container">
-                <h2 class="request_text">Your everyday travel partner</h2>
+                <h2 class="request_text">Lo mas confiable en viajes</h2>
                 <form action="/action_page.php">
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="PICKUP" name="Name">
+                  <input type="text" class="email-bt" placeholder="Lugar a recoger" name="Name">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="DROP" name="Email">
+                  <input type="text" class="email-bt" placeholder="Lugar de destino" name="Email">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="WHEN" name="Email">
+                  <input type="text" class="email-bt" placeholder="Cuando" name="Email">
                 </div>
                   </form>
                   </div> 
                   </div>
-                <div class="send_bt"><a href="#">SEARCH</a></div>
+                <div class="send_bt"><a href="#">RESERVAR</a></div>
           </div>
           </div>
         </div>
@@ -142,17 +138,17 @@
       <div class="row">
           <div class="col-md-6">
             <div class="book_now">
-              <h1 class="book_text">BOOK NOW</h1>
-              <h1 class="call_text">(+71) 1234567890</h1>
+              <h1 class="book_text">¡RESERVA YA!</h1>
+              <h1 class="call_text">5598152015</h1>
             </div>
             <div class="image_1"><img src="images/car.png"></div>
           </div>
           <div class="col-md-6">
-            <h1 class="booking_text">Book a City Taxi to your destination in town</h1>
+            <h1 class="booking_text">RUTA 3</h1>
             <div class="contact_bg">
             <div class="input_main">
               <div class="container">
-                <h2 class="request_text">Your everyday travel partner</h2>
+                <h2 class="request_text">Lo mas confiable en viajes</h2>
                 <form action="/action_page.php">
                 <div class="form-group">
                   <input type="text" class="email-bt" placeholder="PICKUP" name="Name">
@@ -166,7 +162,7 @@
                   </form>
                   </div> 
                   </div>
-                <div class="send_bt"><a href="#">SEARCH</a></div>
+                <div class="send_bt"><a href="#">RESERVAR</a></div>
           </div>
           </div>
         </div>
@@ -193,7 +189,7 @@
             <div class="col-sm-4">
               <div class="taxi_main">
                 <div class="round_1">01</div>
-                <h2 class="carol_text">CAR 1</h2>
+                <h2 class="carol_text">ECATEPEC</h2>
                 <p class="reader_text">act that a reader will be<br> 
                 distracted </p>
                 <div class="images_2"><a href="#"><img src="images/img-2.png"></a></div>
@@ -202,7 +198,7 @@
             <div class="col-sm-4">
               <div class="taxi_main">
                 <div class="round_1">02</div>
-                <h2 class="carol_text">CAR 2</h2>
+                <h2 class="carol_text">TECAMAC</h2>
                 <p class="reader_text">act that a reader will be<br> 
                 distracted </p>
                 <div class="images_2"><img src="images/img-2.png"></a></div>
@@ -211,7 +207,7 @@
             <div class="col-sm-4">
               <div class="taxi_main">
                 <div class="round_1">03</div>
-                <h2 class="carol_text">CAR 3</h2>
+                <h2 class="carol_text">COACALCO</h2>
                 <p class="reader_text">act that a reader will be<br> 
                 distracted </p>
                 <div class="images_2"><img src="images/img-2.png"></a></div>
