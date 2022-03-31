@@ -4,4 +4,5 @@ INGENIERIA EN SOFTWARE
 1320114155
 
 API: https://agify.io/
-DOMIINO:
+DOMIINO: https://serviciodetaxi.herokuapp.com/
+VIDEO: 
