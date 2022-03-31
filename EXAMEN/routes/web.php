@@ -13,10 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-route ::get('/', function(){
+route::get('/', function(){
     return view('vista.index');
 });
-
-route ::get('/api', function(){
-    return view('vista.api');
+route::get('/api', function(){
+    return view('api');
 });
