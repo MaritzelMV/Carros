@@ -83,20 +83,21 @@
             <div class="input_main">
               <div class="container">
                 <h2 class="request_text">Lo mas confiable en viajes</h2>
-                <form action="/action_page.php">
+                <form method="get" action="{{route('ruta_uno')}}">
+                  @csrf
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Lugar a recoger" name="Name">
+                  <input type="text" class="email-bt" placeholder="Lugar a recoger" name="origen1">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Lugar de destino" name="Email">
+                  <input type="text" class="email-bt" placeholder="Lugar de destino" name="destino1">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Cuando" name="Email">
+                  <input type="text" class="email-bt" placeholder="Cuando" name="fecha1">
                 </div>
+                <div class="send_bt"><button type="submit">RESERVAR</button></div>
                   </form>
                   </div> 
                   </div>
-                <div class="send_bt"><a href="#">RESERVAR</a></div>
           </div>
           </div>
         </div>
@@ -116,20 +117,22 @@
             <div class="input_main">
               <div class="container">
                 <h2 class="request_text">Lo mas confiable en viajes</h2>
-                <form action="/action_page.php">
+                <form method="get" action="{{route('ruta_dos')}}">
+                @csrf
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Lugar a recoger" name="Name">
+                  <input type="text" class="email-bt" placeholder="Lugar a recoger" name="origen2">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Lugar de destino" name="Email">
+                  <input type="text" class="email-bt" placeholder="Lugar de destino" name="destino2">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Cuando" name="Email">
+                  <input type="text" class="email-bt" placeholder="Cuando" name="fecha2">
                 </div>
+                <div class="send_bt"><button type="submit">RESERVAR</button></div>
                   </form>
                   </div> 
                   </div>
-                <div class="send_bt"><a href="#">RESERVAR</a></div>
+                
           </div>
           </div>
         </div>
@@ -149,20 +152,22 @@
             <div class="input_main">
               <div class="container">
                 <h2 class="request_text">Lo mas confiable en viajes</h2>
-                <form action="/action_page.php">
+                <form method="get" action="{{route('ruta_tres')}}">
+                @csrf
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Lugar a recoger" name="Name">
+                  <input type="text" class="email-bt" placeholder="Lugar a recoger" name="origen3">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Lugar de destino" name="Email">
+                  <input type="text" class="email-bt" placeholder="Lugar de destino" name="destino3">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="email-bt" placeholder="Cuando" name="Email">
+                  <input type="text" class="email-bt" placeholder="Cuando" name="Emfecha3ail">
                 </div>
+                <div class="send_bt"><button type="submit">RESERVAR</button></div>
                   </form>
                   </div> 
                   </div>
-                <div class="send_bt"><a href="#">RESERVAR</a></div>
+                
           </div>
           </div>
         </div>
@@ -183,7 +188,7 @@
     <!-- our taxis section start -->
     <div id="taxis" class="taxis_section layout_padding">
       <div class="container">
-        <h1 class="our_text">Our <span style="color: #f4db31;">Taxi</span></h1>
+        <h1 class="our_text">Nuestras <span style="color: #f4db31;">Rutas</span></h1>
         <div class="taxis_section_2">
           <div class="row">
             <div class="col-sm-4">
@@ -231,7 +236,7 @@
           </div>
           <div class="col-sm-8">
             <h1 class="cabe_text">Cuidamos de tu dinero</h1>
-            <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as It is a long established fact that a reader will be distracted by the readable c</p>
+            <p class="long_text">Te ofrecemos taxis en las mejores condiciones para que llegues con bien a tu destino, ademas de ofrecerte la mejorcalidad.</p>
             <div class="book_bt"><a href="#">RESERVA</a></div>
           </div>
         </div>
@@ -240,7 +245,7 @@
         <div class="row">
           <div class="col-sm-8">
             <h1 class="secure_text">Nos preocupa de seguridad</h1>
-            <p class="long_text_2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as It is a long established fact that a reader will be distracted by the readable c</p>
+            <p class="long_text_2">Nuestros conductores cuentan con los requisitos necesarios para poder llevarte de una manera segura a tu destino. Ademas nos preocupamos de que nuestros taxis se encuentren en las mejores condiciones y no causar accidentes.</p>
             <div class="book_bt_2"><a href="#">RESERVA</a></div>
           </div>
           <div class="col-sm-4">

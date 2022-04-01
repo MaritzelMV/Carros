@@ -20,3 +20,7 @@ route ::get('/', function(){
 route ::get('/api', function(){
     return view('vista.api');
 });
+
+route::get('/ruta_uno', [App\Http\Controllers\rutauno_controller::class, 'index'])->name('ruta_uno');
+route::get('/ruta_dos', [App\Http\Controllers\rutados_controller::class, 'index'])->name('ruta_dos');
+route::get('/ruta_tres', [App\Http\Controllers\rutatres_controller::class, 'index'])->name('ruta_tres');

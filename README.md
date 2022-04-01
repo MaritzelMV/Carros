@@ -5,4 +5,4 @@ INGENIERIA EN SOFTWARE
 
 API: https://agify.io/
 DOMIINO: https://serviciodetaxi.herokuapp.com/
-VIDEO: 
+CONSUMO DE API: https://serviciodetaxi.herokuapp.com/api
